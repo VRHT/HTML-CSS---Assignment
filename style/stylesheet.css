@@ -2,6 +2,12 @@ header  {
     background-color: #00A5AF;
 }
 
+.logo   {
+    max-width: 129px;
+    max-height: 77px;
+    padding: 20px;
+}
+
 .nav-bar     {
     background-color: #1B203D;
     padding: 10px;
@@ -12,9 +18,3 @@ nav a   {
     text-decoration: none;
 }
 
-@media (min-width: 600px)   {
-    .logo     {
-        display: none;
-    }  
-  
-}
