@@ -1,8 +1,20 @@
-nav     {
-    
+header  {
+    background-color: #00A5AF;
+}
+
+.nav-bar     {
+    background-color: #1B203D;
+    padding: 10px;
 }
 
 nav a   {
-    color: #00A5AF;
+    color:  white;
     text-decoration: none;
+}
+
+@media (min-width: 600px)   {
+    .logo     {
+        display: none;
+    }  
+  
 }
