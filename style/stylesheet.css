@@ -25,6 +25,7 @@ nav a   {
 
 .heading      {
     background-color: #1B203D;
+    margin: 32px 0px;
 }
 
 h1      {
@@ -33,6 +34,35 @@ h1      {
     padding: 10px;
 }
 
+.best-sellers   {
+    background-color: #00A5AF;
+}
+
+.best   {
+    padding: 25px;
+}
+
+.newsletter    {
+    margin: 92px 35px 30px 35px;
+    text-align: center;
+}
+
+.haha   {
+    margin: 30px 35px;
+    text-align: center;
+}
+
+
+.directors  {
+    text-decoration: none;
+    color: #00A5AF;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 20px;
+}
+
 footer      {
     border-top: 1px solid #1B203D;
+    margin-top: 48px;
 }
+
