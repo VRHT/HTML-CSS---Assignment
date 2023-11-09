@@ -52,6 +52,49 @@ h1      {
     text-align: center;
 }
 
+.shopgames {
+    color: black;
+    text-align: left;
+}
+
+.productexp {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.productpage    {
+    color: #230346;
+    text-align: left;
+}
+
+h3      {
+    color: #00A5AF;
+    text-align: left;
+    padding-top: 48px;
+    padding-left: 10px;
+}
+
+.row    {
+    padding-bottom: 45px;
+}
+
+h4      {
+    color: #230346;
+    text-align: center;
+}
+
+.howto      {
+    padding-left: 10px;
+}
+
+ol      {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.browse     {
+    color: #00A5AF;
+}
 
 .directors  {
     text-decoration: none;
@@ -64,5 +107,6 @@ h1      {
 footer      {
     border-top: 1px solid #1B203D;
     margin-top: 48px;
+    padding: 15px 10px;
 }
 
