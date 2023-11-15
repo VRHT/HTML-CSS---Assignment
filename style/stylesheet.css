@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 'MainFont';
+    src: url('style/BebasNeue-Regular.ttf') format('truetype');
+}
+
+section {
+    display: grid;
+}
+
+body {
+    font-family: "MainFont", sans-serif;
+    margin: 0px;
+}
+
+
 header  {
     background-color: #00A5AF;
 }
@@ -25,7 +40,7 @@ nav a   {
 
 .heading      {
     background-color: #1B203D;
-    margin: 32px 0px;
+    margin:  32px 0px 0px 0px;
 }
 
 h1      {
@@ -34,11 +49,87 @@ h1      {
     padding: 10px;
 }
 
-.gameslink  {
-    max-width: 360px;
-    max-height: 305px;
+/* seksjon 1*/
+.games-link  {
+
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    color: black;
+    border: black solid 1px;
+    width: 360px;
+    height: 306px;
 }
 
+.games-img  {
+    width: auto;
+    height: 100%;
+    display: block;
+}
+
+.games-link .overlay-text, .info-link .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black; 
+    z-index: 2; 
+    margin: 0px;
+    padding: 0px;
+}
+ 
+.games-link .overlay-text {
+    font-size: 50px;
+}
+
+.games-link::before, .info-link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(100, 100, 100, 0.5); 
+    z-index: 1; 
+}
+
+.info-link  {
+    position: relative;
+    max-width: 170px;
+    max-height: 304px;
+    overflow: hidden;
+    border: black solid 1px;
+    margin: 30px 10px 0px 10px;
+}
+
+.info-img  {
+    width: 170px;
+    height: 304px;
+    object-fit: cover;
+    display: block;
+}
+
+.maipage-sec1 {
+    margin: 50px 0 50px 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.shop-article {
+    justify-self: center;
+    border: black solid 1px;
+}
+
+.support-article {
+    display: flex;
+    max-width: 100vw;
+}
+
+
+/* best sellers*/
 .best-sellers   {
     background-color: #00A5AF;
 }
