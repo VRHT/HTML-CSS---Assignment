@@ -26,9 +26,21 @@
         <p>PAY NOW change to h1</p>
         <section>
             <p>VISA/MASTERCARD</p>
+                <label for="cardnumber">Card number</label>
+                <input type="text" name="cardnumber" id="cardnumber" class="form__input" required>
+                <label for="nameoncard">Name on card</label>
+                <input type="text" name="nameoncard" id="nameoncard" class="form__input" required>
+                <label for="expirationdate">MM/YY</label>
+                <input type="text" name="expirationdate" id="nameoncard" class="form__input" required>
+                <label for="cvc">CVC</label>
+                <input type="text" name="CVC" id="cvc" class="form__input" required>
         </section>
         <section class="summary">
             <p>SUMMARY</p>
+            <label for="terms&service">I agree to terms & service</label>
+            <input type="checkbox" name="terms&service" id="terms&service" class="checkbox" required>
+            <label for="newsletter">Subscribe to newsletter</label>
+            <input type="checkbox" name="newsletter" id="subtonewsletter" class="checkbox">
         </section>
         <button type="button" onclick="">Pay now</button>
     </main>
