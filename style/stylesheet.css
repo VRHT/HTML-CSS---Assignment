@@ -34,12 +34,24 @@ h1      {
     padding: 10px;
 }
 
+.gameslink  {
+    max-width: 360px;
+    max-height: 305px;
+}
+
 .best-sellers   {
     background-color: #00A5AF;
 }
 
 .best   {
     padding: 25px;
+}
+
+.games     {
+    max-height: 151px;
+    max-width: 115;
+    background-color: #ECE9E9;
+    padding: 20px 28px 68px 28px;
 }
 
 .newsletter    {
@@ -130,10 +142,6 @@ ol      {
     margin-top: 48px;
 }
 
-.bgames     {
-    background-color: #1B203D;
-    color: #00A5AF;
-}
 
 .directors  {
     text-decoration: none;
