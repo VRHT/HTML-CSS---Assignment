@@ -58,7 +58,7 @@ h1      {
     position: relative;
     text-align: center;
     color: black;
-    border: black solid 1px;
+    border: #1B203D solid 1px;
     width: 360px;
     height: 306px;
 }
@@ -100,7 +100,7 @@ h1      {
     max-width: 170px;
     max-height: 304px;
     overflow: hidden;
-    border: black solid 1px;
+    border: #1B203D solid 1px;
     margin: 30px 10px 0px 10px;
 }
 
@@ -134,15 +134,24 @@ h1      {
     background-color: #00A5AF;
 }
 
+.home-games     {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
 .best   {
     padding: 25px;
 }
 
 .games     {
-    max-height: 151px;
-    max-width: 115;
+    height: 151px;
+    max-width: 115px;
     background-color: #ECE9E9;
     padding: 20px 28px 68px 28px;
+    border: 1px solid #1B203D;
 }
 
 .newsletter    {
