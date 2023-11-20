@@ -147,11 +147,45 @@ h1      {
 }
 
 .games     {
+    height: 240px;
+    width: 170px;
+    background-color: #ECE9E9;
+    padding: 20px 0px 0px 0px;
+    border: 1px solid #1B203D;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.games-a {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.game-cover     {
     height: 151px;
     max-width: 115px;
-    background-color: #ECE9E9;
-    padding: 20px 28px 68px 28px;
-    border: 1px solid #1B203D;
+    align-self: center;
+}
+
+.genre {
+    font-size: 12px;
+    margin-bottom: 0px;
+    color: grey;
+}
+
+.title {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.price {
+    font-size: 20px;
+    margin-top: 12px;
 }
 
 .newsletter    {
