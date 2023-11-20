@@ -24,8 +24,8 @@
     </header>
     <main>
         <section>
-            <p>CHECKOUT</p>
-            <P>SHIPPING/BILLING</P>
+            <h1 class="checkout">CHECKOUT</h1>
+            <p class="ship-bill">SHIPPING/BILLING</p>
         </section>
         <section>
             <form action="form.contact.php" method="post">
@@ -49,8 +49,10 @@
         <section>
             <p>BILLING</p>
             <input type="checkbox">
-            <button type="button" onclick="">Different adress</button>
-            <button type="button" onclick="">Payment method</button>
+            <button type="button" onclick="" class="cta-billing">Different adress</button>
+            <a href="/pay/paynow.html" class="pay-a">
+            <button type="button" onclick="" class="cta-paymethod">Payment method</button>
+            </a>
         </section>
     </main>
     <footer>
