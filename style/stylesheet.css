@@ -313,6 +313,24 @@ form    {
     font-weight: bold;
 }
 
+.email-form {
+    display: flex;
+    margin: auto;
+    height: 40px;
+    border-radius: 2px;
+}
+.newsletter-submit {
+    border: 1px solid #1b203d;
+    border-radius: 0;
+    background-color: #1b203d;
+    color: white;
+}
+
+#subscribe-button {
+    margin-left: 0;
+    margin-right: 0;
+}
+
 fieldset label  {
     display: block;
     margin-bottom: 5px;
@@ -387,7 +405,7 @@ fieldset input, textarea  {
     font-weight: bold;
 }
 
-.continue-shopping, #subscribebutton  {
+.continue-shopping  {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -404,9 +422,13 @@ fieldset input, textarea  {
 .newsletter, .newsletter-undertext     {
     text-align: center;
 }
+.newsletter {
+    margin-bottom: 32px;
+}
 
 .newsletter-undertext   {
-    margin-top: 10px;
+    margin-top: 0px;
+    margin-bottom: 48px;
 }
 
 #subscribebutton    {
@@ -416,6 +438,8 @@ fieldset input, textarea  {
 footer      {
     border-top: 1px solid #1B203D;
     margin-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 50px;
 }
 
 .directors  {
@@ -423,7 +447,7 @@ footer      {
     color: #00A5AF;
     margin-top: 48px;
     margin-bottom: 48px;
-    padding-left: 20px;
+    padding-left: 36px;
 }
 
 
