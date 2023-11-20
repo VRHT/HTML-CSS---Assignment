@@ -23,16 +23,21 @@
         </section>
     </header>
     <main>
-        <img src="/pictures/checkoutcomplete.png" alt="Checkmark">
-        <p>THANK YOU FOR YOUR PURCHASE<p>
-        <p>Your order number is: #00001</p>
-        <p>We’ll email you an order comfirmation with details and tracking info</p>
-        <a href="/shop/shop.html">
-        <button type="button" onclick="">Continue shopping</button>
-        </a>
+        <img src="/pictures/checkoutcomplete.png" alt="Checkmark" class="checkmark">
+        <section class="order-confirmation">
+            <p class="purchase">THANK YOU FOR YOUR PURCHASE</p>
+            <p class="confirmation-text">Your order number is: #00001</p>
+            <p class="confirmation-text">We’ll email you an order comfirmation with details and tracking info</p>
+            <a href="/shop/shop.html">
+            <button type="button" onclick="" class="cta-continue">Continue shopping</button>
+            </a>
+        </section>
         <section>
-            <p>SUBSCRIBE TO OUR NEWSLETTER</p>
-            <p>Get the latest of updates on everything from discounted games to exclusive sales</p>
+            <h2 class="newsletter">SUBSCRIBE TO OUR NEWSLETTER?</h2>
+            <p class="newsletter-undertext">Get the latest of updates on everything from discounted games to exlusive sales</p>
+            <form>
+            <input type="text" name="Subscribe" id="subscribebutton" class="newsletter_input" required>
+            </form>
         </section>
     </main>
     <footer>
