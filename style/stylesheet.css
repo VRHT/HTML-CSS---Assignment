@@ -204,6 +204,20 @@ h1      {
     margin-left: 10px;
 }
 
+.product-picture    {
+    height: 218px;
+    width: 170px;
+}
+
+.cta-add    {
+    background-color: #1B203D;
+    color: white;
+    padding: 12px 35px;
+    max-width: 170px;
+    border: 1px solid #1B203D;
+    border-radius: 2px;
+}
+
 .productexp {
     margin-left: 10px;
     margin-right: 10px;
@@ -313,6 +327,20 @@ ol      {
     font-weight: bold;
 }
 
+.cart   {
+    color: black;
+    text-align: left;
+}
+
+.cart-photo     {
+    height: 98px;
+    width: 75px;
+}
+
+.subtotal   {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
 
 form    {
     margin: 32px 0px 32px 30px;
@@ -325,6 +353,7 @@ form    {
     height: 40px;
     border-radius: 2px;
 }
+
 .newsletter-submit {
     border: 1px solid #1b203d;
     border-radius: 0;
@@ -393,6 +422,17 @@ fieldset input, textarea  {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.cta-paynow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color: #00A5AF;
+    border: 1px solid #00A5AF;
+    border-radius: 2px;
+    padding: 12px 143px;
 }
 
 .checkmark  {
