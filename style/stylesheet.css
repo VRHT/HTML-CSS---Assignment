@@ -258,8 +258,7 @@ ol      {
     color: white;
     text-transform: uppercase;
     text-align: center;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-bottom: 48px;
 }
 
 .en     {
@@ -275,6 +274,13 @@ ol      {
 .tre    {
     font-size: 14px;
     margin-top: 48px;
+}
+
+.cta-browse {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: none;
+    color: #00A5AF;
 }
 
 
@@ -433,11 +439,12 @@ fieldset input, textarea  {
 
 #subscribebutton    {
     border: 1px solid #1B203D;
+    margin-bottom: 50px;
 }
 
 footer      {
     border-top: 1px solid #1B203D;
-    margin-top: 50px;
+    margin-top: 0px;
     padding-top: 40px;
     padding-bottom: 50px;
 }
