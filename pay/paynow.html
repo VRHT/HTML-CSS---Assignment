@@ -23,30 +23,44 @@
         </section>
     </header>
     <main>
-        <p>PAY NOW change to h1</p>
-        <section>
-            <p>VISA/MASTERCARD</p>
-                <label for="cardnumber">Card number</label>
+        <h1 class="header-paynow">PAY NOW</h1>
+        <section class="payment-method">
+            <article  class="payment-type">
+                <input type="checkbox" name="creditcard" id="creditcard" class="checkbox" required>
+                <label for="creditcard">Credit Card</label>
+            </article>
+            <article  class="payment-type">
+                <input type="checkbox" name="paypal" id="paypal" class="checkbox">
+                <label for="paypal">Paypal</label>
+            </article>
+        </section>
+        <section class="carddetails">
+            <h2 class="carddetailsss">VISA/MASTERCARD</h2>
+                <label for="cardnumber" class="cardnumber">Card number</label>
                 <input type="text" name="cardnumber" id="cardnumber" class="form__input" required>
-                <label for="nameoncard">Name on card</label>
+                <label for="nameoncard" class="nameoncard">Name on card</label>
                 <input type="text" name="nameoncard" id="nameoncard" class="form__input" required>
-                <label for="expirationdate">MM/YY</label>
-                <input type="text" name="expirationdate" id="nameoncard" class="form__input" required>
-                <label for="cvc">CVC</label>
+                <label for="expirationdate" class="expdate">MM/YY</label>
+                <input type="text" name="expirationdate" id="expdate" class="form__input" required>
+                <label for="cvc" class="cvc">CVC</label>
                 <input type="text" name="CVC" id="cvc" class="form__input" required>
         </section>
-        <section class="summary">
-            <p>SUMMARY</p>
+        <section>
+            <h2 class="header-summary">SUMMARY</h2>
+        </section>
+        <section class="summary-boxes">
             <article>
-            <label for="terms&service">I agree to terms & service</label>
-            <input type="checkbox" name="terms&service" id="terms&service" class="checkbox" required>
+            <input type="checkbox" name="termsandservice" id="termsandservice" class="checkbox" required>
+            <label for="termsandservice">I agree to terms & service</label>
             </article>
             <article>
-            <label for="newsletter">Subscribe to newsletter</label>
             <input type="checkbox" name="newsletter" id="subtonewsletter" class="checkbox">
+            <label for="newsletter">Subscribe to newsletter</label>
             </article>
         </section>
-        <button type="button" onclick="" class="cta-paynow">Pay now</button>
+        <a href="/complete/complete.html">
+            <button type="button" onclick="" class="cta-paynow">Pay now</button>
+        </a>
     </main>
     <footer>
         <a href="/about/about.html" class="directors">ABOUT</a>

@@ -424,10 +424,82 @@ fieldset input, textarea  {
     margin-right: auto;
 }
 
+.header-paynow  {
+    color: black;
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.payment-method {
+    margin-bottom: 40px;
+}
+
+.payment-type   {
+    border: 1px solid #1B203D;
+    border-radius: 2px;
+    margin: 0px 20px 8px 20px;
+    height: 38px;
+}
+
+.carddetails    {
+    flex-wrap: wrap;
+}
+
+.carddetailsss    {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.cardnumber {
+    margin: 10px 0px 8px 20px;
+}
+
+.nameoncard, .expdate, .cvc    {
+    margin: 20px 0px 8px 20px;
+}
+
+#cardnumber, #nameoncard    {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 38px;
+    border: 1px solid #1B203D;
+    border-radius: 2px;
+}
+
+#expdate    {
+    margin-left: 20px;
+    height: 38px;
+    width: 40%;
+    border: 1px solid #1B203D;
+}
+
+#cvc    {
+    margin-left: 20px;
+    height: 38px;
+    width: 20%;
+    border: 1px solid #1B203D;
+}
+
+.header-summary {
+    margin: 48px 0px 48px 20px;
+}
+
+.summary-boxes  {
+    margin-left: 20px;
+    color: #1274E7;
+}
+
+#subtonewsletter    {
+    margin-top: 20px;
+    margin-bottom: 48px;
+}
+
 .cta-paynow {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    text-decoration: none;
     color: white;
     background-color: #00A5AF;
     border: 1px solid #00A5AF;
