@@ -1,0 +1,10 @@
+.carddetails    {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 20px 10px 38px 10px 38px 10px 38px 10px 38px;
+}
+
+.cardinfo   {
+    grid-row: 1 / 1;
+    grid-column: 1 / 1;
+}

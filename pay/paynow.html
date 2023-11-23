@@ -35,15 +35,17 @@
             </article>
         </section>
         <section class="carddetails">
-            <h2 class="carddetailsss">VISA/MASTERCARD</h2>
+            <h2 class="cardinfo">VISA/MASTERCARD</h2>
                 <label for="cardnumber" class="cardnumber">Card number</label>
                 <input type="text" name="cardnumber" id="cardnumber" class="form__input" required>
                 <label for="nameoncard" class="nameoncard">Name on card</label>
                 <input type="text" name="nameoncard" id="nameoncard" class="form__input" required>
+            <article>
                 <label for="expirationdate" class="expdate">MM/YY</label>
                 <input type="text" name="expirationdate" id="expdate" class="form__input" required>
                 <label for="cvc" class="cvc">CVC</label>
                 <input type="text" name="CVC" id="cvc" class="form__input" required>
+            </article>
         </section>
         <section>
             <h2 class="header-summary">SUMMARY</h2>
@@ -58,9 +60,11 @@
             <label for="newsletter">Subscribe to newsletter</label>
             </article>
         </section>
-        <a href="/complete/complete.html">
+        <section class="placement-ctapaynow">
+        <a href="/complete/complete.html" class="link-ctapaynow">
             <button type="button" onclick="" class="cta-paynow">Pay now</button>
         </a>
+        </section>
     </main>
     <footer>
         <a href="/about/about.html" class="directors">ABOUT</a>
