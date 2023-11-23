@@ -139,7 +139,8 @@ h1      {
     flex-wrap: wrap;
     justify-content: center;
     justify-content: space-evenly;
-    margin-top: 50px;
+    margin-top: 48px;
+    margin-bottom: 48px;
 }
 
 .best   {
@@ -189,7 +190,7 @@ h1      {
 }
 
 .newsletter    {
-    margin: 92px 35px 30px 35px;
+    margin: 0px 35px 30px 35px;
     text-align: center;
 }
 
@@ -342,6 +343,10 @@ ol li     {
     font-weight: bold;
 }
 
+#name, #email, #subject {
+    margin-bottom: 24px;
+}
+
 .inf-text   {
     margin-bottom: 32px;
     text-align: center;
@@ -376,7 +381,7 @@ ol li     {
     grid-column: 2 / 2;
     width: 25px;
     height: 33px;
-    border: black solid 1px;
+    border: #1B203D solid 1px;
     border-radius: 2px;
     text-align: center;
     line-height: 34px;
@@ -430,7 +435,6 @@ ol li     {
     color: white;
     text-decoration: none;
     font-size: 20px;
-
 }
 
 .divider {
@@ -540,14 +544,22 @@ fieldset input, textarea  {
 }
 
 .checkout   {
-    margin: 48px 0px 20px 35px;
+    margin: 48px 0px 0px 10px;
     color: black;
+    font-size: 40px;
     text-align: left;
 }
 
+.billing    {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
 .ship-bill  {
-    margin-left: 35px;
+    margin-left: 20px;
+    margin-bottom: 48px;
     text-align: left;
+    font-size: 20px;
 }
 
 .cta-billing    {
@@ -556,6 +568,7 @@ fieldset input, textarea  {
     padding: 12px 36px;
     width: 50%;
     border: 1px solid #1B203D;
+    border-radius: 2px;
 }
 
 .pay-a  {
@@ -571,6 +584,7 @@ fieldset input, textarea  {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 48px;
 }
 
 .header-paynow  {
@@ -587,12 +601,9 @@ fieldset input, textarea  {
 .payment-type   {
     border: 1px solid #1B203D;
     border-radius: 2px;
-    margin: 0px 20px 8px 20px;
+    margin: 0px 20px 10px 20px;
     height: 38px;
-}
-
-.carddetails    {
-    flex-wrap: wrap;
+    line-height: 38px;
 }
 
 .cardinfo    {
@@ -616,30 +627,16 @@ fieldset input, textarea  {
     border-radius: 2px;
 }
 
-.expdate, .cvc {
-    display: flex;
-}
-
-#expdate, #cvc  {
-    display: flex;
-}
-
-#expdate    {
+#expdate, #cvc    {
     margin-left: 20px;
+    margin-right: 20px;
     height: 38px;
-    width: 40%;
     border: 1px solid #1B203D;
-}
-
-#cvc    {
-    margin-left: 20px;
-    height: 38px;
-    width: 20%;
-    border: 1px solid #1B203D;
+    border-radius: 2px;
 }
 
 .header-summary {
-    margin: 48px 0px 48px 20px;
+    margin: 48px 0px 0px 20px;
 }
 
 .summary-boxes  {
@@ -695,6 +692,7 @@ fieldset input, textarea  {
 
 .cta-continue   {
     padding: 12px 22px;
+    margin-bottom: 85px;
     border: 1px solid #1B203D;
     border-radius: 2px;
     background-color: #1B203D;
