@@ -349,36 +349,57 @@ ol li     {
 }
 
 .cart-header   {
+    width: 100%;
     color: black;
     text-align: left;
     grid-row: 1 / 1;
     grid-column: 1 / 4;
+    margin-bottom: 0px;
+    padding: 0px;
+    margin-top: 40px;
 }
 
 .cart-grid  {
+    margin-left: auto;
+    margin-right: auto;
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto 50px;
     width: 360px;
-    overflow: hidden;
-    justify-content: space-evenly;
+    gap: 46px;
+    justify-content: space-between;
+    height: 290px;
 }
 
 .cart-amount {
     grid-row: 2 / 2;
     grid-column: 2 / 2;
-    width: 20px;
+    width: 25px;
+    height: 33px;
+    border: black solid 1px;
+    border-radius: 2px;
+    text-align: center;
+    line-height: 34px;
+    margin: auto;
 }
 
 .cart-price {
     grid-row: 2 / 2;
     grid-column: 3 / 3;
-    width: 30px;
+    max-width: 100%;
 }
 
 .cart-remove {
     grid-row: 2 / 2;
     grid-column: 4 / 4;
+    text-decoration: none;
+    color: grey;
+}
+
+.cart-price, .cart-remove {
+    height: 20px;
+    margin: auto;
+    border-bottom: black solid 1px;
 }
 
 .cart-photo     {
@@ -391,9 +412,81 @@ ol li     {
 .subtotal   {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    grid-column: 1 / 4;
+    grid-column: 1 / span 4;
     grid-row: 3 / 3;
-    width: 360px;
+    width: 100%;
+    height: 50px;
+    display: flex
+}
+
+.checkout-button {
+    display: block;
+    margin: 50px auto 50px auto;
+    width: 170px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #1B203D;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.divider {
+    display: flex;
+    width: 100%;
+    align-content: center;
+    margin-bottom: 48px;
+}
+
+.divider-left, .divider-right {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.divider-left {
+    width: 20%;
+    height: 1px;
+    background-color: black;
+}
+
+.divider-text {
+    width: 20%;
+    font-size: 12px;
+    text-align: center;
+}
+
+.divider-right {
+    width: 60%;
+    height: 1px;
+    background-color: black;
+}
+
+.games-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-content: space-between;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.games-list .games {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cart-shop-button {
+    display: block;
+    color: #02BCC8;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    margin: 30px auto 48px auto;
 }
 
 form    {
