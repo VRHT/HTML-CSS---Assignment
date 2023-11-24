@@ -438,6 +438,10 @@ ol li     {
     font-size: 20px;
 }
 
+#name, #email, #phone-number, #company, #adress, #apt-suite, #city, #zip   {
+    margin: 10px 20px;
+}
+
 /*product psge specific*/
 
 .product-overview {
@@ -665,30 +669,12 @@ fieldset input, textarea  {
     line-height: 38px;
 }
 
-.cardinfo    {
-    margin-left: 20px;
-    margin-bottom: 10px;
+.cardinfo   {
+    margin-left: 20 px;
 }
 
-.cardnumber {
-    margin: 10px 0px 8px 20px;
-}
-
-.nameoncard, .expdate, .cvc    {
-    margin: 20px 0px 8px 20px;
-}
-
-#cardnumber, #nameoncard    {
-    margin-left: 20px;
-    margin-right: 20px;
-    height: 38px;
-    border: 1px solid #1B203D;
-    border-radius: 2px;
-}
-
-#expdate, #cvc    {
-    margin-left: 20px;
-    margin-right: 20px;
+#cardnumber, #nameoncard, #expdate, #cvc     {
+    margin: 0px 20px 20px 20px;
     height: 38px;
     border: 1px solid #1B203D;
     border-radius: 2px;
