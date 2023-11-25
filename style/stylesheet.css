@@ -833,4 +833,42 @@ footer      {
 }
 
 
+/*Desktop scaling*/
+
+@media screen and (min-width: 1078px) {
+    main {
+        margin: 0px auto 0px auto;
+        align-content: center;
+        width: 70%;
+    }
+
+    header {
+        background-color: #00A5AF;
+        position: relative;
+        height: 152px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .logo   {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); /* Offset the element by half its own size */
+    }
+    
+    
+    
+    .nav-bar     {
+        background-color: #00A5AF;
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+        width: 70%;
+    }
+  }
+
+
 
