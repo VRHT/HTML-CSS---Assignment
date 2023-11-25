@@ -23,7 +23,12 @@
         </section>
     </header>
     <main>
-        <a href="/shop/shop.html">Back to games</a>
+        
+        <a href="/shop/shop.html" class="back-arrow">
+            <div class="left-arrow-triangle"></div>
+            <div class="left-arrow-rectangle"></div>
+            back
+        </a>
         <section class="product-overview">
             <img src="/pictures/assassin.jpg" alt="assassin" class="product-picture">
             <p class="product-price">Price: 49.90$</p>
@@ -51,14 +56,23 @@
             </ul>
         </section>
         <section class="howto">
-            <h5>How to use a Game Box game:</h5>
+            <section style="display: flex; margin-left: 35px;">
+                <h5 style="margin-left: 0px;">How to use a </h5>
+                <h5 style="color: limegreen; margin-left: 4px; margin-right: 4px;"> Game Box</h5>  
+                <h5 style="margin-left: 0px;"> game:</h5>
+            </h5></section>
             <ol>
                 <li>Buy a game from Game Hub</li>
                 <li>Check you email used in the checkout</li>
                 <li>Redeem your one time code from the email on your preffered console</li>
             </ol>
         </section>
-        <section>
+        <section class="divider">
+            <div class="divider-left"></div>
+            <p class="divider-text">similar games</p>
+            <div class="divider-right"></div>
+        </section>
+        <section class="games-list">
             <article class="games">
                 <a href="productpage/product.html" class="games-a">
                     <img src="/pictures/furious.jpg" alt="furious" class="game-cover">
@@ -84,9 +98,7 @@
                 </a>
             </article>
         </section>
-        <section>
-            <a href="/shop/shop.html" class="cta-browse">Browse games</a>
-        </section>
+        <a href="/shop/shop.html" class="cart-shop-button">Browse games</a>
     </main>
     <footer>
         <a href="/about/about.html" class="directors">ABOUT</a>
